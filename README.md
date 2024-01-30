@@ -141,6 +141,7 @@ Set up a `config.yaml` file in your project's root directory with the necessary 
 sourceLocale: 'en'
 supportedLocales: ['en', 'fr', 'zh']
 filePath: 'locales'
+# dryRun: true
 
 openai: 
   api_key: ${OPENAI_API_KEY}    # put your openai api key here or in your .env file

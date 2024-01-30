@@ -2,9 +2,10 @@
 sourceLocale: 'en'
 supportedLocales: ['en', 'fr', 'zh']
 filePath: 'localesFolderPath'
+# dryRun: true
 
 openai: 
-  api_key: ${OPENAI_API_KEY}
+  api_key: ${OPENAI_API_KEY}  # put your openai api key here or in your .env file
   model: 'gpt-3.5-turbo-1106'  
   max_tokens: 1000  
   max_retry: 3
