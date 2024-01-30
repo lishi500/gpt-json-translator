@@ -1,0 +1,27 @@
+{
+  "name": "gpt-json-translator",
+  "version": "1.0.0",
+  "bin": {
+    "translateLocale": "./translateLocale.js",
+    "translateAll": "./translateAll.js"
+  },
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "translateOne": "node index.js --translateOne",
+    "translateAll": "node index.js --translateAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "gpt-tokenizer": "^2.1.2",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "openai": "^4.26.0",
+    "yargs": "^17.7.2"
+  }
+}
