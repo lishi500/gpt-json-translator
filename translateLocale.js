@@ -7,7 +7,7 @@ import moment from "moment";
 import fs from "fs/promises";
 import { translateParallel } from "./src/translation.js";
 
-export async function translateOne(locale) {
+export async function _translateOne(locale) {
   if (!locale) {
     console.log("locale is not provided");
     return;
@@ -43,4 +43,4 @@ if (argv.dryRun) {
 const language = argv._[0];
 
 console.log(`translateLocale --`, language);
-translateOne(language);
+_translateOne(language);

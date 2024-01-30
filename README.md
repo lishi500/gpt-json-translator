@@ -64,6 +64,25 @@ JSON Translator is an innovative tool designed to utilize ChatGPT for translatin
 
 ```
 
+## Installation
+
+To start using `gpt-json-translator`, you need to install the package from npm. You can do this using either npm or yarn. Here are the steps for each method:
+
+### Using npm
+
+Run the following command to install the package:
+
+```bash
+npm install gpt-json-translator
+```
+
+### Using Yarn
+
+If you prefer using Yarn, run this command instead:
+```bash
+yarn add gpt-json-translator
+```
+
 ## Features
 
 - **High-Speed Translation**: Capable of translating substantial JSON files into various languages concurrently, typically within one minute.
@@ -73,6 +92,37 @@ JSON Translator is an innovative tool designed to utilize ChatGPT for translatin
 - **User-Friendly Commands**:
   - To translate all supported languages: `npx translateAll`
   - To translate into a specific language (e.g., French): `npx translateLocale fr`
+
+
+## Usage
+
+After installation, you can import and use `gpt-json-translator` in your JavaScript project. Here's a simple example to get you started:
+
+### Command Line 
+
+#### To translate all supported languages: 
+
+```bash
+npx translateAll
+```
+
+#### To translate into a specific language (e.g., French): 
+```bash
+npx translateLocale fr
+```
+
+### To use inside project
+```js
+import { translateOne, translateAll } from 'gpt-json-translator/index.js';
+
+//translating a single locale
+translateOne('fr');
+
+//translating all supported locales
+translateAll();
+
+```
+
 
 ## Dry Run Mode
 
@@ -100,15 +150,6 @@ openai:
 
 # max_tokens: total_tokens = prompt_tokens + completion_tokens. when you send 1000 token en to translate to fr. it could return 2000 token as fr. so the total_tokens will be 3000.
 ```
-
-## Getting Started
-
-1. Clone the repository to your local environment.
-2. Ensure Node.js is installed on your system.
-3. Configure the `config.yaml` file according to your translation needs.
-4. add openai API key to your .env file 
-4. Install dependencies with `npm install`.
-5. Use the translation commands as required.
 
 ## Contribution
 

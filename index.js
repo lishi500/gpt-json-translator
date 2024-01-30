@@ -1,8 +1,8 @@
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 import config from "./src/config.js";
-import {translateOne } from './translateLocale.js';
-import {translateAll } from './translateAll.js';
+import { _translateOne as translateOne } from './translateLocale.js';
+import { _translateAll as translateAll } from './translateAll.js';
 
 const argv = yargs(hideBin(process.argv)).argv;
 
@@ -22,3 +22,4 @@ if (argv.translateAll) {
   translateAll();
 }
 
+export { translateOne, translateAll };
