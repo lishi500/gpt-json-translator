@@ -1,6 +1,14 @@
 {
   "name": "gpt-json-translator",
-  "version": "1.2.0",
+  "version": "1.2.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lishi500/gpt-json-translator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lishi500/gpt-json-translator/issues"
+  },
+  "homepage": "https://github.com/lishi500/gpt-json-translator#readme",
   "bin": {
     "translateLocale": "./translateLocale.js",
     "translateAll": "./translateAll.js"
