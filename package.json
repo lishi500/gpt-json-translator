@@ -1,6 +1,6 @@
 {
   "name": "gpt-json-translator",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/lishi500/gpt-json-translator.git"
@@ -13,14 +13,14 @@
     "translateLocale": "./translateLocale.js",
     "translateAll": "./translateAll.js"
   },
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "translateOne": "node index.js --translateOne",
     "translateAll": "node index.js --translateAll"
   },
-  "keywords": [],
+  "description": "A tool for translating JSON files using GPT.",
+  "keywords": ["GPT", "JSON", "translation", "localization", "i18n", "GPT-3", "OpenAI"],
   "author": "",
   "license": "ISC",
   "dependencies": {

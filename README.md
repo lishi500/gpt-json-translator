@@ -70,6 +70,7 @@ To start using `gpt-json-translator`, you need to install the package from npm. 
 
 ### Using npm
 
+[Visit NPM page](https://www.npmjs.com/package/gpt-json-translator)
 Run the following command to install the package:
 
 ```bash
@@ -151,6 +152,7 @@ openai:
 
 # max_tokens: total_tokens = prompt_tokens + completion_tokens. when you send 1000 token en to translate to fr. it could return 2000 token as fr. so the total_tokens will be 3000.
 ```
+For more information about ChatGPT models, you can [Visit OpenAI Models](https://platform.openai.com/docs/models)
 
 ## Contribution
 
