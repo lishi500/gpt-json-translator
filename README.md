@@ -71,6 +71,7 @@ To start using `gpt-json-translator`, you need to install the package from npm. 
 ### Using npm
 
 [Visit NPM page](https://www.npmjs.com/package/gpt-json-translator)
+
 Run the following command to install the package:
 
 ```bash
